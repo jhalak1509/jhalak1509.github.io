@@ -22,4 +22,5 @@ https://github.com/jhalak1509/ML_Data_Cleaning_And_Feature_Selection + https://g
 - Conducted thorough predictive modeling of a Kaggle dataset using three methods (Random Forest, Logistic Regression and KNN Classifier), handling outliers and feature selection.
 - Employed advanced techniques, including H2O.ai AutoML and Statsmodels, for evaluating model significance, multi-collinearity, and hyperparameter importance.
 
-![EEG Band Discovery](/assets/img/eeg_band_discovery.jpeg)
+![AutoML](/assets/img/h2o-automl-logo.jpeg)
+
