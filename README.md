@@ -24,3 +24,11 @@ https://github.com/jhalak1509/ML_Data_Cleaning_And_Feature_Selection + https://g
 
 ![AutoML](/assets/img/h2o-automl-logo.jpeg)
 
+### Boston Blue Bikes Analysis
+https://github.com/jhalak1509/BostonBlueBikesAnalysis
+
+- Implemented an ArangoDB multi-model database, integrating graph and document models, utilizing live data collected from GFBS feed using a python script with a daily data update frequency of 500 records.
+- Created optimized AQL queries and Power BI dashboards, reducing query execution time from 5 s to 3 s.
+
+![Blue Bikes](/assets/img/Blue_bikes.png)
+
