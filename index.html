@@ -23,8 +23,30 @@
 			}
 	
 			#banner {
-				padding: 2em;
-			}
+        		padding: 2em;
+        		display: flex;
+        		align-items: center;
+        		text-align: center;
+    		}
+
+			.profile-image-container {
+        		width: 150px; /* Adjust the width of the circular container */
+        		height: 150px; /* Adjust the height of the circular container */
+        		overflow: hidden;
+        		border-radius: 50%;
+        		margin-right: 20px; /* Optional: add some space to the right of the image */
+    		}
+
+    		.profile-image {
+       			width: 100%; /* Ensure the image fills the circular container */
+        		height: auto;
+        		border-radius: 50%;
+    		}
+
+    		.text-content {
+        		flex: 1; /* Allow the text content to take remaining space */
+    		}
+
 	
 			#banner h2,
 			#banner h3,
@@ -86,13 +108,17 @@
 				<!-- Banner -->
 					<section id="banner">
 						<div class="inner">
-							<img src="images/profile_picture.png" alt="Jhalak Surve" class="profile-image" />
-							<h2 style="font-size: 2.5em;">Jhalak Surve</h2>
-							<h3>Data Scientist/Analyst</h3>
-							<p>Graduate student at Northeastern University with a passion for data science. Mastering skills in Python, R, Statistical Analysis, and Machine Learning/Deep Learning. Excited to apply knowledge to real-world projects and make informed decisions through data.</p>
-							<ul class="actions">
-								<li><a href="https://drive.google.com/file/d/1pFyeP_0JvKMHPjmtD91dLcS41BDs_Qbi/view?usp=sharing" class="button">Resume</a></li>
-							</ul>
+							<div class="profile-image-container">
+								<img src="images/profile_picture.png" alt="Jhalak Surve" class="profile-image" />
+							</div>
+							<div class="text-content">
+								<h2 style="font-size: 2.5em;">Jhalak Surve</h2>
+								<h3>Data Scientist/Analyst</h3>
+								<p>Graduate student at Northeastern University with a passion for data science. Mastering skills in Python, R, Statistical Analysis, and Machine Learning/Deep Learning. Excited to apply knowledge to real-world projects and make informed decisions through data.</p>
+								<ul class="actions">
+									<li><a href="https://drive.google.com/file/d/1pFyeP_0JvKMHPjmtD91dLcS41BDs_Qbi/view?usp=sharing" class="button">Resume</a></li>
+								</ul>
+							</div>
 						</div>
 					</section>
 
